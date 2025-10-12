@@ -1,0 +1,24 @@
+.sectionUL {}
+.sectionUL div{}
+.sectionUL div ul{}
+.sectionUL div ul li {}
+.sectionUL div ul li a{
+    color: red;
+    list-style: node;
+    text-decoration: none;
+}
+button {
+    color: red;
+    background-color: yellow;
+}
+button:hover{
+    color: white;
+    background-color: red;
+    transition: 0.5s;
+}
+button:active{
+    background-color: blueviolet;
+}
+input:checked + label{
+    color: red;
+}
